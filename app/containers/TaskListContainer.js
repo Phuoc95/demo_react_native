@@ -10,7 +10,7 @@ import {
   View
 } from 'react-native';
 
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import TaskFlatList from '../components/TaskFlatList';
 import deleteTask, { finishTask } from '../actions/TaskListViewActions';
 

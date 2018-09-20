@@ -26,7 +26,9 @@ import TestScreen from './screens/TestScreen';
 // import { Provider } from 'react-redux';
 
 
+
 export default createBottomTabNavigator(
+  // <Provider store={store}>
 {
     Home: HomeScreen,
     Gallery: GalleryScreen,
